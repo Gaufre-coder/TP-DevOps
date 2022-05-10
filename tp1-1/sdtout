@@ -1,0 +1,33 @@
+Host front_node
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /cygdrive/c/users/Bienvenu_K/tp-devops/tp1-1/.vagrant/machines/front_node/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host back_node
+  HostName 127.0.0.1
+  User vagrant
+  Port 2200
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /cygdrive/c/users/Bienvenu_K/tp-devops/tp1-1/.vagrant/machines/back_node/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host jenkins_node
+  HostName 127.0.0.1
+  User vagrant
+  Port 2201
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /cygdrive/c/users/Bienvenu_K/tp-devops/tp1-1/.vagrant/machines/jenkins_node/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
